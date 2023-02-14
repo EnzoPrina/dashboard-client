@@ -4,7 +4,7 @@ import PeopleIcon from '@mui/icons-material/PeopleOutlined';
 
 export const TotalCustomers = (props) => (
   <Card {...props}
-  sx={{ backgroundColor: '#ffffff' }}>
+  sx={{ backgroundColor: '#2D3748', color:'#fff'}}>
     <CardContent>
       <Grid
         container
@@ -13,7 +13,7 @@ export const TotalCustomers = (props) => (
       >
         <Grid item>
           <Typography
-            color="textSecondary"
+            /* color="textSecondary" */
             gutterBottom
             variant="overline"
           >
@@ -21,7 +21,7 @@ export const TotalCustomers = (props) => (
 
           </Typography>
           <Typography
-            color="textPrimary"
+            /* color="textPrimary" */
             variant="h4"
           >
             45
@@ -56,7 +56,7 @@ export const TotalCustomers = (props) => (
           6%
         </Typography>
         <Typography
-          color="textSecondary"
+          /* color="textSecondary" */
           variant="caption"
         >
           Desde el mes pasado

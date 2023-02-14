@@ -3,7 +3,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 
 export const TotalProfit = (props) => (
   <Card {...props}
-  sx={{ backgroundColor: '#ffffff' }}>
+  sx={{ backgroundColor: '#2D3748', color:'#fff' }}>
     <CardContent>
       <Grid
         container
@@ -12,7 +12,7 @@ export const TotalProfit = (props) => (
       >
         <Grid item>
           <Typography
-            color="textSecondary"
+            /* color="textSecondary" */
             gutterBottom
             variant="overline"
           >
@@ -20,7 +20,7 @@ export const TotalProfit = (props) => (
 BENEFICIO TOTAL
           </Typography>
           <Typography
-            color="textPrimary"
+            /* color="textPrimary" */
             variant="h4"
           >
             $23k
