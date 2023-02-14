@@ -15,6 +15,8 @@ import { Users as UsersIcon } from '../icons/users';
 import { XCircle as XCircleIcon } from '../icons/x-circle';
 import { Logo } from './logo';
 import { NavItem } from './nav-item';
+import Image from 'next/image'
+import logo from '../../public/static/images/avatars/LogoSR-03.png'
 
 const items = [
   {
@@ -96,14 +98,21 @@ export const DashboardSidebar = (props) => {
               href="/"
               passHref
             >
-              <a>
-                <Logo
+              <a >
+                <Image
+                src={logo}
+                alt='logo sr mimatu'
+                width={120}
+                height={80}
+
+                />
+{/*                 <Logo
                   sx={{
                     height: 42,
                     width: 42,
                     marginLeft: 5,
                   }}
-                />
+                /> */}
               </a>
             </NextLink>
           </Box>
