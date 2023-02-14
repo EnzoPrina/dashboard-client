@@ -27,26 +27,26 @@ export const ProductListToolbar = (props) => (
         sx={{ m: 1 }}
         variant="h4"
       >
-        Products
+        Productos
       </Typography>
       <Box sx={{ m: 1 }}>
         <Button
           startIcon={(<UploadIcon fontSize="small" />)}
           sx={{ mr: 1 }}
         >
-          Import
+          Importar
         </Button>
         <Button
           startIcon={(<DownloadIcon fontSize="small" />)}
           sx={{ mr: 1 }}
         >
-          Export
+          Exportar
         </Button>
         <Button
           color="primary"
           variant="contained"
         >
-          Add products
+          Guardar productos
         </Button>
       </Box>
     </Box>

@@ -19,31 +19,31 @@ const products = [
   {
     id: uuid(),
     name: 'Filo Navaja',
-    imageUrl: '/static/images/products/product_1.png',
+    imageUrl: '/static/images/products/tijera.png',
     updatedAt: subHours(Date.now(), 2)
   },
   {
     id: uuid(),
     name: 'Toallas Blancas',
-    imageUrl: '/static/images/products/product_2.png',
+    imageUrl: '/static/images/products/toalla.png',
     updatedAt: subHours(Date.now(), 2)
   },
   {
     id: uuid(),
     name: 'Shampoo',
-    imageUrl: '/static/images/products/product_3.png',
+    imageUrl: '/static/images/products/shampoo.png',
     updatedAt: subHours(Date.now(), 3)
   },
   {
     id: uuid(),
     name: 'Cera',
-    imageUrl: '/static/images/products/product_4.png',
+    imageUrl: '/static/images/products/cera.png',
     updatedAt: subHours(Date.now(), 5)
   },
   {
     id: uuid(),
     name: 'Crema Hidratante',
-    imageUrl: '/static/images/products/product_5.png',
+    imageUrl: '/static/images/products/crema.png',
     updatedAt: subHours(Date.now(), 9)
   }
 ];
@@ -52,7 +52,7 @@ export const LatestProducts = (props) => (
   <Card {...props}>
     <CardHeader
       subtitle={`${products.length} in total`}
-      title="Últimos Productos"
+      title="Productos"
     />
     <Divider />
     <List>
